@@ -3,7 +3,7 @@ package com.careerdevs.legoproject;
 public class SaloonCar extends Car{  //inheritance
     public int numberOfSeats;
 
-    public SaloonCar(int numberOfSeats) {
+    public SaloonCar(int numberOfSeats) { //polymorphism with overloaded methods.
         this.numberOfSeats = numberOfSeats;
     }
 
