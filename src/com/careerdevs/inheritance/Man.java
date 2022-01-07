@@ -2,17 +2,9 @@ package com.careerdevs.inheritance;
 
 //  include the parent class fields in the constructor and use super
 
-public class Man extends GeneralObject {
-    public String name;
+public class Man extends Human {
 
     public Man(boolean moves, String color, String name) {
-        super(moves, color);
-        this.name = name;
-    }
-
-    @Override
-    public String toString() {
-        return "You created a man. What is the man's name? " + name + " Can he walk? " + moves + " What color is his " +
-                "uniform ? " + color;
+        super(moves, color, name);
     }
 }

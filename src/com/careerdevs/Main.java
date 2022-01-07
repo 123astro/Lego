@@ -1,15 +1,15 @@
 package com.careerdevs;
 
-import com.careerdevs.inheritance.Alien;
-import com.careerdevs.inheritance.GeneralObject;
-import com.careerdevs.inheritance.Kart;
-import com.careerdevs.inheritance.Man;
+import com.careerdevs.inheritance.*;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        Man man = new Man(true, "red", "Keith");
+        Women women = new Women(true,"Silver", "Jen");
+        System.out.println(women);
+
+        Man man = new Man(true, "Green", "Keith");
         System.out.println(man);
 
         Kart kart = new Kart(true, "Ford", "blue");
