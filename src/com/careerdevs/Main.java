@@ -1,5 +1,6 @@
 package com.careerdevs;
 
+import com.careerdevs.encapsulation.GarageWorker;
 import com.careerdevs.inheritance.*;
 import com.careerdevs.polymorphism.FactoryWorker;
 
@@ -26,5 +27,7 @@ public class Main {
         worker.Count(10);
         worker.Count(10.5F);
 
+        GarageWorker worker1 = new GarageWorker();
+        worker1.addNumbers(2,3);
     }
 }
