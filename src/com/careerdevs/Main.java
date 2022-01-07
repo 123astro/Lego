@@ -1,6 +1,7 @@
 package com.careerdevs;
 
 import com.careerdevs.inheritance.*;
+import com.careerdevs.polymorphism.FactoryWorker;
 
 public class Main {
 
@@ -20,6 +21,10 @@ public class Main {
 
         GeneralObject newObj = new GeneralObject(true, "green");
         System.out.println(newObj);
+
+        FactoryWorker worker = new FactoryWorker();
+        worker.Count(10);
+        worker.Count(10.5F);
 
     }
 }
