@@ -9,7 +9,7 @@ public class GarageWorker {
 
     public int addNumbers( int num1, int num2){
        int result = num1 + num2;
-       result = result + 100; // encapsulation - creating the proper output and don't care about the internal workings.
+       result = result + 100; // encapsulation - creating the proper output and don't care ab out the internal workings.
        result = result - 100; // bs code
         System.out.println(result);
        return result;
