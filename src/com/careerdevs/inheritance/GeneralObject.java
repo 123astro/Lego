@@ -1,4 +1,4 @@
-package com.careerdevs;
+package com.careerdevs.inheritance;
 
 //parent class  - all child classes will use the fields in this class. super() is used in the child class constructors.
 // The child class constructor has the fields of the parent class.

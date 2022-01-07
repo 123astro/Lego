@@ -1,4 +1,4 @@
-package com.careerdevs;
+package com.careerdevs.inheritance;
 
 // include the parent class fields in the constructor and use super
 
