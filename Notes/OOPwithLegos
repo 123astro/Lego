@@ -1,0 +1,23 @@
+OOP
+Object Oriented Programming.  It is a coding structure that uses classes as blue prints to create objects.
+These classes have data attributes and methods the define an object when instantiated.  The class structure allows
+for the reuse of code.
+The pillars of OOP are Encapsulation, Abstraction, Inheritance, Polymorphism.
+
+  Encapsulation: In a nut shell it is data hiding.
+  example: process where the main class expects a certain result when instantiating. Main does not care what is
+  going on in the code as long as the result is proper according the what the code was suppose to produce.
+
+  Abstraction: An example would be the use of an interface or the use of methods only to access the data of an object.
+  Hiding unwanted data and getting relevant data.
+
+  Inheritance: Classes in a hierarchies format. Example would be a parent class with child class.  This allows for less
+  coding. The ability for a class to inherit functionality and properties. It is a great way to have clean code and less
+  code. A child class can inherit a method from the parent class allowing the code not to be redundant.
+
+  Polymorphism: An example of polymorphism is the overloading of methods. This allows you to have different input types
+  to a method. The arguments are passed when instantiated and these arguments can determine which constructor will be
+  used based on the data types of the arguments.  It makes for very flexible code.
+
+
+
